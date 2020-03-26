@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1497122123454-d63853ca2d39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card {
+  position: absolute;
+  margin: 5%;
+  left: 0;
+  width: 250px;
+  height: 450px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+  background: #151515;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ds-top {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 300px;
+  height: 80px;
+  background: crimson;
+  -webkit-animation: dsTop 1.5s;
+          animation: dsTop 1.5s;
+}
+
+.avatar-holder {
+  position: absolute;
+  margin: auto;
+  top: 40px;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 5px #151515, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000;
+          box-shadow: 0 0 0 5px #151515, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000;
+  background: white;
+  overflow: hidden;
+  -webkit-animation: mvTop 1.5s;
+          animation: mvTop 1.5s;
+}
+
+.avatar-holder img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.name {
+  position: absolute;
+  margin: auto;
+  top: -60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  -webkit-animation: fadeIn 2s ease-in;
+          animation: fadeIn 2s ease-in;
+}
+
+.name a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.name a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+
+.name h6 {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  width: 40px;
+}
+
+.button {
+  position: absolute;
+  margin: auto;
+  padding: 8px;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  -webkit-animation: fadeIn 2s ease-in;
+          animation: fadeIn 2s ease-in;
+  outline: none;
+}
+
+.button a {
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  font-size: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.button a:hover {
+  color: white;
+  background: crimson;
+}
+
+h6 {
+  text-transform: uppercase;
+  color: crimson;
+}
+
+p {
+  font-size: 0.5rem;
+}
+
+.ds:nth-of-type(2) {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.ds:nth-of-type(1) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.ds-skill {
+  position: absolute;
+  margin: auto;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  width: 200px;
+  height: 150px;
+  -webkit-animation: mvBottom 1.5s;
+          animation: mvBottom 1.5s;
+}
+
+.ds-skill h6 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: crimson;
+}
+
+.ds-skill .skill h6 {
+  font-weight: 400;
+  font-size: 8px;
+  letter-spacing: 0.05em;
+  margin: 4px 0px;
+  color: white;
+}
+
+.ds-skill .skill .fab {
+  color: crimson;
+  font-size: 14px;
+}
+
+.ds-skill .skill .bar {
+  height: 5px;
+  background: crimson;
+  text-align: right;
+}
+
+.ds-skill .skill .bar p {
+  color: white;
+  font-size: 8px;
+  padding-top: 5px;
+  -webkit-animation: fadeIn 5s;
+          animation: fadeIn 5s;
+}
+
+.ds-skill .skill .bar:hover {
+  background: white;
+}
+
+.ds-skill .skill .bar-html {
+  width: 95%;
+  -webkit-animation: htmlSkill 1s;
+          animation: htmlSkill 1s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .bar-css {
+  width: 90%;
+  -webkit-animation: cssSkill 2s;
+          animation: cssSkill 2s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .bar-js {
+  width: 75%;
+  -webkit-animation: jsSkill 3s;
+          animation: jsSkill 3s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+@-webkit-keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    left: -300px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    left: -300px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes htmlSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes htmlSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@-webkit-keyframes cssSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes cssSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes jsSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes jsSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@-webkit-keyframes mvBottom {
+  0% {
+    bottom: -150px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+
+@keyframes mvBottom {
+  0% {
+    bottom: -150px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+
+@-webkit-keyframes mvTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 40px;
+  }
+}
+
+@keyframes mvTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 40px;
+  }
+}
+
+@-webkit-keyframes dsTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes dsTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.following {
+  color: white;
+  background: crimson;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0.7rem;
+  color: white;
+  text-decoration: underline;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  padding: 10px;
+  left: -10px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card2 {
+  margin-left: 500px;
+}
+
+.tilesWrap {
+  padding: 0;
+  margin: 0px auto;
+  list-style: none;
+}
+
+.tilesWrap li {
+  margin: 50px;
+  display: inline-block;
+  margin-bottom: 400px;
+  min-width: 200px;
+  max-width: 800px;
+  padding: 80px 20px 40px;
+  position: relative;
+  vertical-align: top;
+  text-align: left;
+}
+/*# sourceMappingURL=sheep.css.map */
