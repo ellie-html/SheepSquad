@@ -12,7 +12,8 @@ body {
 
 .card {
   position: absolute;
-  margin: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
   left: 0;
   width: 250px;
   height: 450px;
@@ -201,7 +202,7 @@ p {
 }
 
 .ds-skill .skill .bar-html {
-  width: 95%;
+  width: 100%;
   -webkit-animation: htmlSkill 1s;
           animation: htmlSkill 1s;
   -webkit-animation-delay: .4s;
@@ -209,7 +210,7 @@ p {
 }
 
 .ds-skill .skill .bar-css {
-  width: 90%;
+  width: 100%;
   -webkit-animation: cssSkill 2s;
           animation: cssSkill 2s;
   -webkit-animation-delay: .4s;
@@ -217,9 +218,73 @@ p {
 }
 
 .ds-skill .skill .bar-js {
-  width: 75%;
+  width: 100%;
   -webkit-animation: jsSkill 3s;
           animation: jsSkill 3s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .tufty {
+  width: 50%;
+  -webkit-animation: tuftyone 1s;
+          animation: tuftyone 1s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .tufty2 {
+  width: 90%;
+  -webkit-animation: tuftytwo 2s;
+          animation: tuftytwo 2s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .lop {
+  width: 70%;
+  -webkit-animation: lopone 1s;
+          animation: lopone 1s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .lop2 {
+  width: 60%;
+  -webkit-animation: loptwo 2s;
+          animation: loptwo 2s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .lop3 {
+  width: 90%;
+  -webkit-animation: lopthree 3s;
+          animation: lopthree 3s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .dor {
+  width: 60%;
+  -webkit-animation: dorone 1s;
+          animation: dorone 1s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .dor2 {
+  width: 70%;
+  -webkit-animation: dortwo 2s;
+          animation: dortwo 2s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.ds-skill .skill .dor3 {
+  width: 80%;
+  -webkit-animation: dorthree 3s;
+          animation: dorthree 3s;
   -webkit-animation-delay: .4s;
           animation-delay: .4s;
 }
@@ -246,6 +311,15 @@ p {
   }
 }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -255,12 +329,156 @@ p {
   }
 }
 
+@-webkit-keyframes tuftyone {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes tuftyone {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes tufytwo {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes tufytwo {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes lopone {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes lopone {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes loptwo {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes loptwo {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes lopthree {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes lopthree {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes dorone {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes dorone {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes dortwo {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes dortwo {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes dorthree {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes dorthree {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
 @-webkit-keyframes htmlSkill {
   0% {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -269,7 +487,7 @@ p {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -278,7 +496,7 @@ p {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -287,7 +505,7 @@ p {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -296,7 +514,7 @@ p {
     width: 0;
   }
   100% {
-    width: 75%;
+    width: 100%;
   }
 }
 
@@ -305,7 +523,7 @@ p {
     width: 0;
   }
   100% {
-    width: 75%;
+    width: 100%;
   }
 }
 
@@ -368,78 +586,6 @@ p {
   background: crimson;
 }
 
-/* Popup container - can be anything you want */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 0.7rem;
-  color: white;
-  text-decoration: underline;
-}
-
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 200px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  padding: 10px;
-  left: -10px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.card2 {
-  margin-left: 500px;
-}
-
 .tilesWrap {
   padding: 0;
   margin: 0px auto;
@@ -449,12 +595,308 @@ p {
 .tilesWrap li {
   margin: 50px;
   display: inline-block;
-  margin-bottom: 400px;
   min-width: 200px;
   max-width: 800px;
   padding: 80px 20px 40px;
   position: relative;
   vertical-align: top;
+  margin-bottom: 300px;
   text-align: left;
+}
+
+.button2 {
+  margin-top: 120px;
+  margin-left: -10px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  color: white;
+  font-size: 1rem;
+}
+
+.modal-content p {
+  font-size: 1rem;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .modal-content {
+    width: 300px;
+  }
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  color: white;
+  font-size: 1rem;
+}
+
+.modal-content2 p {
+  font-size: 1rem;
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .modal-content2 {
+    width: 300px;
+  }
+}
+
+/* The Modal (background) */
+.modal3 {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  color: white;
+  font-size: 1rem;
+}
+
+.modal-content3 p {
+  font-size: 1rem;
+}
+
+/* The Close Button */
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .modal-content3 {
+    width: 300px;
+  }
+}
+
+/* Modal Content */
+.modal-content4 {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  color: white;
+  font-size: 1rem;
+}
+
+.modal-content4 p {
+  font-size: 1rem;
+}
+
+/* The Close Button */
+.close4 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .modal-content4 {
+    width: 300px;
+  }
+}
+
+.deepshadow {
+  color: #e0dfdc;
+  background-color: #333;
+  letter-spacing: 1rem;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.heading-frame {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  -ms-grid-columns: max-content auto;
+      grid-template-columns: -webkit-max-content auto;
+      grid-template-columns: max-content auto;
+  -ms-grid-rows: auto max-content;
+      grid-template-rows: auto -webkit-max-content;
+      grid-template-rows: auto max-content;
+  background: #333 url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583147649/Lambing%20Live/cheeks_nkfxxl.jpg) center;
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  padding: 2rem;
+}
+
+.heading-frame:before, .heading-frame:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.heading-frame:before {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  border-right: none;
+  border-bottom: none;
+}
+
+.heading-frame:after {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  border-left: none;
+}
+
+.heading-frame h2 {
+  margin: 1rem 1rem -.5rem 0;
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+.heading-frame2 {
+  background: #333 url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583696685/Lambing%20Live/tuft_h2l9vt.jpg) center;
+  background-size: cover;
+}
+
+.heading-frame3 {
+  background: #333 url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583163971/Lambing%20Live/lop_qtynsn.jpg) center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 450px) {
+  .heading-frame {
+    width: 200px;
+    height: 200px;
+  }
 }
 /*# sourceMappingURL=sheep.css.map */
