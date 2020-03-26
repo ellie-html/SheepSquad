@@ -789,36 +789,6 @@ p {
   }
 }
 
-/* Modal Content */
-.modal-content4 {
-  background-color: rgba(0, 0, 0, 0.4);
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 400px;
-  color: white;
-  font-size: 1rem;
-}
-
-.modal-content4 p {
-  font-size: 1rem;
-}
-
-/* The Close Button */
-.close4 {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close4:hover,
-.close4:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 450px) {
   .modal-content4 {
     width: 300px;
@@ -833,6 +803,8 @@ p {
   text-align: center;
   padding: 20px;
   font-size: 3rem;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .heading-frame {
@@ -893,10 +865,18 @@ p {
   background-size: cover;
 }
 
+.heading-frame3 {
+  background: #333 url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583696437/Lambing%20Live/doro_yapdoe.jpg) center;
+  background-size: cover;
+}
+
 @media screen and (max-width: 450px) {
   .heading-frame {
     width: 200px;
     height: 200px;
+  }
+  .tilesWrap li {
+    position: static;
   }
 }
 /*# sourceMappingURL=sheep.css.map */
