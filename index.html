@@ -23,7 +23,7 @@
           <h6 title="Followers"><i class="fas fa-award"></i> <span class="followers">90</span></h6>
         </div>
         <div class="button">
-          <a href="#" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
+          <a href="https://www.strawpoll.me/19625034" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
         </div>
        
          
@@ -167,7 +167,7 @@
           <h6 title="Followers"><i class="fas fa-award"></i> <span class="followers">75</span></h6>
         </div>
         <div class="button">
-          <a href="#" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
+          <a href="https://www.strawpoll.me/19625034" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
         </div>
        
          
@@ -234,11 +234,11 @@
           <img src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583696437/Lambing%20Live/doro_yapdoe.jpg" alt="Albert Einstein">
         </div>
         <div class="name">
-          <a href="#" target="_blank">DORORTHY</a>
+          <a href="https://www.strawpoll.me/19625034" target="_blank">DORORTHY</a>
           <h6 title="Followers"><i class="fas fa-award"></i> <span class="followers">85</span></h6>
         </div>
         <div class="button">
-          <a href="#" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
+          <a href="https://www.strawpoll.me/19625034" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
         </div>
        
          
@@ -295,11 +295,85 @@
 </li>
 
 
+<li>
 
+
+    <div class="card ">
+        <div class="ds-top"></div>
+        <div class="avatar-holder">
+          <img src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583164127/Lambing%20Live/lammy_tnfdwg.jpg" alt="Albert Einstein">
+        </div>
+        <div class="name">
+          <a href="#" target="_blank">LAMBLE</a>
+          <h6 title="Followers"><i class="fas fa-award"></i> <span class="followers">95</span></h6>
+        </div>
+        <div class="button">
+          <a href="https://www.strawpoll.me/19625034" class="btn" onmousedown="follow();">Vote <i class="fas fa-vote-yea"></i></a>
+        </div>
+       
+         
+        
+        <div class="ds-skill">
+          <h6>Traits </h6>
+          <div class="skill html">
+            <h6><i class="	fas fa-paw"></i> Friendlyness </h6>
+            <div class="bar bar-html ">
+              <p>100%</p>
+            </div>
+          </div>
+          <div class="skill css">
+            <h6><i class="f	fas fa-paw"></i> Personality </h6>
+            <div class="bar bar-css ">
+              <p>100%</p>
+            </div>
+          </div>
+          <div class="skill javascript">
+            <h6><i class="	fas fa-paw"></i> Cuteness </h6>
+            <div class="bar bar-js ">
+              <p>100%</p>
+            </div>
+<br> 
+           <!-- Trigger/Open The Modal -->
+
+
+</div>
+
+<div id="myBtn5" class="button button2">
+    <a href="#" class="btn" onmousedown="follow();">View More <i class="far fa-clone"></i></a>
+</div>
+ 
+
+<!-- The Modal -->
+<div id="myModal5" class="modal5">
+ 
+
+  <!-- Modal content -->
+  <div class="modal-content5">
+    <span class="close5">&times;</span>
+    <div class="heading-frame heading-frame5">
+        <h2>MEET<br/> LAMBLE</h2>
+    </div>
+   
+   
+    <h2> LAMBLE</h2>
+    <p>The first ever squad member.She was last years' orphan lamb. I claimed her and now she is my big baby. Loves humans, fuss, cuddles and food!! </p>
+  </div>
+
+          </div>
+        </div>
+      </div>
+</li>
 
 
       
    </ul>
+
+<div class="vote"> 
+    <h2>CLICK TO VOTE FOR YOUR FAVOURITE!</h2> 
+   
+   <iframe src="http://www.strawpoll.me/embed_1/19625034" style="width:100%;height:426px;border:0;">Loading poll...</iframe>
+
+</div>
 <script>
 
 
@@ -392,11 +466,85 @@ window.onclick = function(event) {
 
 
 
+// Get the modal
+var modal4 = document.getElementById("myModal4");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn4");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close4")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal4.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal4.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal4.style.display = "none";
+  }
+}
 
 
 
 
 
+// Get the modal
+var modal5 = document.getElementById("myModal5");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn5");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close5")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal5.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal5.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal5.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+var animateButton = function(e) {
+
+e.preventDefault;
+//reset animation
+e.target.classList.remove('animate');
+
+e.target.classList.add('animate');
+setTimeout(function(){
+  e.target.classList.remove('animate');
+},700);
+};
+
+var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (var i = 0; i < bubblyButtons.length; i++) {
+bubblyButtons[i].addEventListener('click', animateButton, false);
+}
 
 
 
